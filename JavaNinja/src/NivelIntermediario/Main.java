@@ -31,5 +31,14 @@ public class Main {
         Hinata.aldeia = "Konoha";
         Hinata.ativarByakugan();
 
+        // Objeto 5
+        Boruto Boruto = new Boruto();
+        Boruto.nome = "Boruto Uzumaki";
+        Boruto.idade = 13;
+        Boruto.aldeia = "Konoha";
+        Boruto.ativarKarma();
+        Boruto.ativarJougan();
+        Boruto.chakraPraCaralho();
+
     }
 }
