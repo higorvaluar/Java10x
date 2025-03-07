@@ -39,7 +39,3 @@ O **Batismo de Java** é o primeiro módulo do curso Java10x e tem como objetivo
 ```bash
    git clone https://github.com/seu-usuario/batismo-java.git
 ```
-
-## 📜 Licença
-
-Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](https://license/) para mais detalhes.
