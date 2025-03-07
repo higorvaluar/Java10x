@@ -1,0 +1,1 @@
+Essa package (segunda_parte) fala sobre Polimorfismo + Abstração e Super Classes x Sub Classes.
