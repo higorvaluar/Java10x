@@ -37,5 +37,5 @@ O **Batismo de Java** é o primeiro módulo do curso Java10x e tem como objetivo
 
 - Clone o repositório e seja feliz:
 ```bash
-   git clone https://github.com/seu-usuario/batismo-java.git
+   git clone https://github.com/higorvaluar/Java10x.git
 ```
