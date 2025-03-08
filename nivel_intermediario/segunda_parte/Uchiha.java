@@ -2,14 +2,6 @@ package nivel_intermediario.segunda_parte;
 
 public class Uchiha extends Ninja implements SharinganInteface {
 
-    public Uchiha() {
-        super();
-    }
-
-    public Uchiha(String nome, String aldeia, int idade) {
-        super(nome, aldeia, idade);
-    }
-
     public Uchiha(String nome, String aldeia, int idade, int numeroDeMissoesConcluidas, NivelNinja rank) {
         super(nome, aldeia, idade, numeroDeMissoesConcluidas, rank);
     }
