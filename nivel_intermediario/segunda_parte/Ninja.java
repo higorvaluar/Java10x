@@ -10,8 +10,14 @@ public abstract class Ninja implements EstrategiaDeBatalha {
     int idade;
     int numeroDeMissoesConcluidas;
     NivelNinja rank;
+    final double altura = 1.8;
 
     public Ninja() {
+    }
+
+    // Todo ninja vai fazer obrigatoriamente
+    final void tacarKunai() {
+        System.out.println("Eu sou um método da classe mãe");
     }
 
     public Ninja(String nome, String aldeia, int idade) {
@@ -63,6 +69,6 @@ public abstract class Ninja implements EstrategiaDeBatalha {
 
     @Override
     public String toString() {
-        return "Meu nome é " + nome + ", eu sou de " + aldeia + " e tenho " + idade + " anos.";
+        return "Meu nome é " + nome + ", eu sou de " + aldeia + " e tenho " + idade + " anos. ";
     }
 }
