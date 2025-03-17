@@ -2,12 +2,14 @@ package nivel_intermediario.terceira_parte;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("---------- Naruto Uzumaki ----------");
-        Uzumaki naruto = new Uzumaki("Naruto", "Konoha", 17, 30, 1.67);
-        System.out.println("Meu nome é " + naruto.getNome());
-        naruto.setNome("Naruto Uzumaki com nome alterado pelo SET");
-        System.out.println("Meu nome é " + naruto.getNome());
 
-        System.out.println("---------- Sasuke Uchiha ----------");
+        Missoes missao1 = new Missoes("Resgatar um gato", RankDeMissoes.E);
+        missao1.exibirDetalhes();
+
+        System.out.println("-------------------------------------");
+
+        Missoes missao2 = new Missoes("Matar o Madara Uchiha", RankDeMissoes.SS);
+        missao2.exibirDetalhes();
+
     }
 }
