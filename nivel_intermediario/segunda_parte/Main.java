@@ -11,5 +11,10 @@ public class Main {
         Uchiha sasuke = new Uchiha("Sasuke Uchiha", "Konoha", 17, 130, NivelNinja.GENIN);
         System.out.println(sasuke);
         System.out.println("");
+
+        Anbu ninjaAnbu = new Anbu();
+        ninjaAnbu.nome = "Ninja Anbu";
+
+        System.out.println("");
     }
 }
