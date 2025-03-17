@@ -14,6 +14,7 @@ public class Main {
 
         Anbu ninjaAnbu = new Anbu();
         ninjaAnbu.nome = "Ninja Anbu";
+        ninjaAnbu.anbu();
 
         System.out.println("");
     }
