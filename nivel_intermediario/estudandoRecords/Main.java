@@ -1,4 +1,4 @@
-package nivel_intermediario.estudando_records;
+package nivel_intermediario.estudandoRecords;
 
 public class Main {
     public static void main(String[] args) {
