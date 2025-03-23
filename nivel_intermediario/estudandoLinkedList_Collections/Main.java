@@ -1,4 +1,4 @@
-package nivel_intermediario.estudandoCollections;
+package nivel_intermediario.estudandoLinkedList_Collections;
 
 import java.util.*;
 
